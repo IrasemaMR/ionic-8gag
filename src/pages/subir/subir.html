@@ -1,0 +1,45 @@
+<ion-header>
+
+    <ion-navbar>
+        <ion-buttons>
+            <button ion-button (click)="cerrar_modal()">
+                Cerrar
+            </button>
+        </ion-buttons>
+        <ion-title>Crear Post</ion-title>
+    </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+    <ion-list>
+        <ion-item>
+            <ion-label floating>Título</ion-label>
+            <ion-input type="text"></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <img src="http://portaljardin.com/wp-content/uploads/2017/01/01-El-lenguaje-de-las-flores-Portal-Jardin-840x480.jpg">
+        </ion-item>
+    </ion-list>
+
+    <ion-grid>
+        <ion-row>
+            <ion-col>
+                <button ion-button block icon-left>
+                    <ion-icon slot="start" name="photos"></ion-icon>
+                    Seleccionar
+                </button>
+            </ion-col>
+            <ion-col>
+                <button ion-button block icon-left>
+                            <ion-icon slot="start" name="camera"></ion-icon>
+                            Cámara
+                        </button>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+
+</ion-content>
